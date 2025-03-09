@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>私の自己紹介</title>
+ <style>
+/基本样式/
+body {font-family: 'Arial', sans-serif;margin: 0;padding: 0;line-height: 
+1.6;background: linear-gradient(135deg, #f4f4f4, #e0e0e0);color: #333;}
+
+header {background: linear-gradient(135deg, #333, #555);color: white;text-align: center;
+padding: 2em 0;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+
+main {padding: 20px;max-width: 800px;margin: 20px auto;
+background-color: white;border-radius: 12px;box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+main:hover {transform: translateY(-5px);box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);}
+
+img {display: block;max-width: 200px;margin: 20px auto;
+border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+img:hover {transform: scale(1.05);box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);}
+
+.contact {margin-top: 20px;text-align: center;}
+
+footer {text-align: center;margin-top: 20px;color: #777;padding: 10px 0;
+background-color: #f4f4f4;border-top: 1px solid #ddd;}
+
+#page2 {display: none;}
+ .btn {display: block;margin: 20px auto; padding: 12px 24px;background: linear-gradient(135deg, #4CAF50, #45a049);
+color: white;border: none;border-radius: 25px;cursor: pointer;font-size: 16px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+.btn:hover {transform: translateY(-3px);box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+h2, h3 {color: #333;border-bottom: 2px solid #4CAF50;padding-bottom: 5px;font-weight: bold;}
+
+ul{list-style-type: none;padding: 0;}
+ul li {background-color: #f9f9f9;margin: 10px 0;padding: 15px;border-radius: 8px;
+border-left: 4px solid #4CAF50;transition: transform 0.3s ease, box-shadow 0.3s ease;}
+ul li:hover{transform: translateX(5px);box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+.section{margin-bottom: 20px;}
+
+/动画/
+@keyframes fadeIn {from {opacity: 0;transform: translateY(20px); }
+to {opacity: 1; transform: translateY(0);}}
+
+main {animation: fadeIn 0.8s ease-out;}
+    </style>
+</head>
+<body>
+  <header>
+ <h1>自己紹介</h1>
+  </header>
+<main id="page1">
+ <img src="20250218160134.jpg" alt="私の写真">
+<p>私は日本福祉大学経済学部3年生の王櫻燃です。<br>
+このページは私自身が独学で制作したものです。ウェブ制作やデザインの技術を学び、自己表現やスキル向上に努めております。<br>今後も更なる成長を目指して努力してまいりますので、どうぞよろしくお願いいたします。
+</p>
+   <section class="section">
+ <h2>個人情報</h2>
+<ul>
+<li>名前: 王櫻燃</li>
+<li>出身地: 中国黒竜江省</li>
+<li>在住: 日本愛知県</li>
+<li>誕生日: 7月7日</li>
+<li>血液型: B型</li>
+<li>MBTI: ISTP</li></ul>
+　</section>
+　<section class="section">
+<h2>現在保有している資格</h2>
+<ul>
+ <li>JLPT日本語能力試験 N1（取得年: 2023）</li>
+<li>英検3級（取得年: 2020）</li></ul>
+ </section>
+
+<section class="section">
+<h2>在留カード資格</h2>
+<ul>
+ <li>永住者</li></ul>
+</section>
+ <section class="section">
+　<h2>連絡先</h2>
+<div class="contact">
+<p>Email: ee220416@n-fukushi.ac.jp</p>
+ </div>
+</section> 
+<button class="btn" onclick="showPage2()">もし私のことをもっと知りたい場合は、こちらをクリックしてください。</button>
+ </main>
+<main id="page2">
+<h2>王さんの自己紹介</h2> 
+<section class="section">
+ <h3>長所と短所</h3>
+<p>長所として、私は論理的思考力に優れ、物事を冷静に分析し、合理的な判断を下すことができます。また、実践的な学習能力が高く、理論と実践を組み合わせながら効果的に習得することが得意です。変化に対する適応力があり、独立心が強く、自発的に学び行動する姿勢を大切にしています。さらに、新しい技術や分野への好奇心が旺盛で、向上心を持って挑戦を続けています。これまでの経験を通じて、接客やチームワークのスキルを磨き、観察力を活かして細部にも気を配る力を培ってきました。
+一方、短所としては完璧主義な一面があり、細部にこだわりすぎて時間をかけすぎることがあります。また、興味が薄れるとモチベーションが低下しやすく、困難な状況でも他人に頼るのが苦手な傾向があります。加えて、感情表現が控えめで、厳格な手順やルールに対してストレスを感じることがあるのも課題の一つです。</p>
+<p>これらの短所を克服するために、私は以下のような取り組みを行っています。まず、完璧主義の傾向を抑えるために、優先順位を明確にし、重要なタスクに集中するよう心がけています。また、モチベーションの維持には、小さな目標を設定し、達成感を味わうことで継続的な意欲を保つようにしています。さらに、他人に頼ることを苦手と感じる部分については、チームメンバーとのコミュニケーションを積極的に取り、信頼関係を築くことで、協力しやすい環境を作るよう努めています。感情表現に関しては、自分の気持ちを適切に伝えるためのトレーニングを行い、ストレスを感じる手順やルールに対しては、柔軟な対応を心がけるようにしています。
+これらの努力を通じて、私は自分の短所を改善し、長所をさらに伸ばすことができると信じています。</p>
+</section>
+ <section class="section">
+<h3>ITへの興味</h3>
+<p>大学3年生の時、ゼミでAIが金融業界でどのように活用されているかを研究する機会があり、それをきっかけにAI技術にさらに興味を持つようになりました。ゼミでは、リーダーとしてテーマの選定、資料収集、データ分析、プレゼンテーションの資料作成を担当しました。これらの活動を通じて、AI技術が金融業界の効率化や意思決定支援にどのように役立つかを深く学び、プロジェクト管理やチームワーク、プレゼンテーションスキルも向上させることができました。</p>
+<p>これらの経験から、AI技術が持つ可能性にさらに興味を持ち、将来的にはAIやデータ分析の分野で社会に貢献したいと考えています。</p>
+</section>
+ <section class="section">
+<h3>実習経験</h3>
+<p>空港保安検査場での6か月実習では、保安検査の補助業務を担当し、迅速かつ正確な対応力を習得。外国人対応を通じて語学力やコミュニケーション能力を向上させました。飲食店（すき家）での2年間のアルバイトでは、接客・調理補助・レジ業務を経験し、忙しい環境でも効率的に業務をこなす力やチームワークの重要性を学びました。ボランティア活動では地域清掃やイベント運営に携わり、社会貢献の意義を実感。多文化交流イベントで異文化理解を深め、柔軟性を養いました。これらの経験を通じて、責任感や協調性、課題解決能力を高めました。今後もこれらのスキルを活かし、成長していきたいと考えています。</p>
+ </section>
+ <section class="section">
+<h3>趣味</h3>
+<p>私の趣味は旅行と写真撮影です。新しい場所を訪れ、その土地の文化や風景をカメラに収めるのが好きで、特に風景や街並みを撮るのが得意です。過去には名古屋美術館で写真が展示されたこともあります。旅先では、観光地だけでなく地元の人しか知らないスポットも巡ります。    休みの日には、プログラミングやWebサイト制作の勉強をしています。IT分野に興味があり、独学でスキルを磨いています。また、気分転換にカフェ巡りも楽しみで、落ち着いた空間でコーヒーを飲みながら読書や写真撮影をしてリラックスしています。</p>
+　</section>
+　<button class="btn" onclick="showPage1()">戻る</button>
+ </main>
+ <footer>
+ <p>&copy; 2025年1月6日　王櫻燃作成。</p>
+ </footer>
+ <script>
+ function showPage2() {document.getElementById('page1').style.display = 'none';document.getElementById('page2').style.display = 'block';}
+ function showPage1() {document.getElementById('page2').style.display ='none';document.getElementById('page1').style.display = 'block';}
+</script>
+</body>
+</html>
