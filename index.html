@@ -43,7 +43,18 @@ border-left: 4px solid #4CAF50;transition: transform 0.3s ease, box-shadow 0.3s 
 ul li:hover{transform: translateX(5px);box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
 
 .section{margin-bottom: 20px;}
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
 
+.image-container img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
 /动画/
 @keyframes fadeIn {from {opacity: 0;transform: translateY(20px); }
 to {opacity: 1; transform: translateY(0);}}
@@ -56,8 +67,11 @@ main {animation: fadeIn 0.8s ease-out;}
  <h1>自己紹介</h1>
   </header>
 <main id="page1">
-<img src="https://ehz123.github.io/TEXT/20250309091033.jpg" alt="私の写真">
- <img src="https://ehz123.github.io/TEXT/20250309093046.jpg" alt="私の写真">
+<div class="image-container">
+    <img src="https://ehz123.github.io/TEXT/20250309091033.jpg" alt="私の写真">
+    <img src="https://ehz123.github.io/TEXT/20250309093046.jpg" alt="私の写真2">
+</div>
+
 <p>私は日本福祉大学経済学部3年生の王櫻燃です。<br>
 このページは私自身が独学で制作したものです。ウェブ制作やデザインの技術を学び、自己表現やスキル向上に努めております。<br>今後も更なる成長を目指して努力してまいりますので、どうぞよろしくお願いいたします。
 </p>
